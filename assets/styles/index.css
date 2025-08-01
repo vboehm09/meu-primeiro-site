@@ -10,10 +10,16 @@ body {
 
 h1, p {
     text-align: center;
+    margin: 10px;
 }
 
 header {
     background-color:black;
     color: white;
     padding: 73px;
+}
+
+main {
+    height: 600px;
+    background-color:red;
 }
