@@ -2,24 +2,46 @@
 *{
     margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-h1, p {
-    text-align: center;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
 }
 
 header {
     background-color:black;
     color: white;
     padding: 73px;
+    text-align: center;
 }
 
 main {
-    height: 600px;
-    background-color:red;
+    background-color:beige;
+    flex: 1;
+    padding: 48px 38px;
+}
+
+#sobre-mim {
+    display: block;
+    background-color:white ;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#titulo-sobre-mim {
+    font-size: 20px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+}
+
+#texto-sobre-mim {
+    font-size: 30px;
 }
